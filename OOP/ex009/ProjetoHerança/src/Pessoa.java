@@ -4,6 +4,12 @@ public class Pessoa {
     protected String email;
     protected String telefone;
 
+    public Pessoa(String nome, String email, String telefone) {
+        this.nome = nome;
+        this.email = email;
+        this.telefone = telefone;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -31,5 +37,7 @@ public class Pessoa {
     public String exibir(){
         return this.nome + "," + this.email + "," + this.telefone;
     }
+
+    
 
 }

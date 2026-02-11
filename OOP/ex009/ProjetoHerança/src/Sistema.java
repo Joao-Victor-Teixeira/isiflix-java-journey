@@ -2,6 +2,7 @@ public class Sistema {
 
     public static void main(String[] args) {
         
+/* 
         Pessoa p = new Pessoa();
         p.setNome("Joao");
         p.setEmail("joao@dev.com");
@@ -16,6 +17,17 @@ public class Sistema {
 
         System.out.println(p.exibir());
         System.out.println(e.exibir());
+*/        
+        Pessoa cadastro [] = new Pessoa[5];
+        cadastro[0] = new Pessoa("Joao", "joao@joao.com", "987654321");
+        cadastro[1] = new Pessoa("Maria","maria@maria.com","123456");
+		cadastro[2] = new Pessoa("Jose","jose@jose.com", "988765");
+		cadastro[3] = new Pessoa("Pedro","pedro@pedro.com","765");
+		cadastro[4] = new Pessoa("Ana","ana@ana.com","827273");
+		
+		for (Pessoa p: cadastro) {
+			System.out.println(p.exibir());
+		}
     }
 
 }
