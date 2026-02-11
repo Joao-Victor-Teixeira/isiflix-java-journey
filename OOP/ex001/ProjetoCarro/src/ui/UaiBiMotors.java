@@ -1,3 +1,7 @@
+package ui;
+
+import core.Carro;
+
 public class UaiBiMotors {
     public static void main(String[] args) {
         Carro c1, c2;
