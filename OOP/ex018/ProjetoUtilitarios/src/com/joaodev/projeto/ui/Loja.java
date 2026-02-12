@@ -3,7 +3,7 @@ package com.joaodev.projeto.ui;
 import java.util.ArrayList;
 import java.util.List;
 
-import core.Produto;
+import com.joaodev.projeto.core.Produto;
 
 public class Loja {
 	public static void main(String[] args) {
